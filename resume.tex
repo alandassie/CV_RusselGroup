@@ -1,4 +1,3 @@
-% !TeX program = lualatex
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
@@ -6,7 +5,7 @@
 \documentclass[11pt, a4paper]{russell}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.6cm, top=1.2cm, right=1.6cm, bottom=1.8cm, footskip=.5cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -37,17 +36,17 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
-\name{Doe}{John}
+% \photo[rectangle,edge,right]{profile}
+\name{Alan Cruz}{Dassie}
 % \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{YOUR ADDRESS}
+\address{Rosario Institute of Physics, 27 de Febrero 210Bis, Rosario, Argentina}
 
-\mobile{000000000000}
-\email{thisis@fakeemail.com}
+\mobile{+54 341 5159190}
+\email{dassiealan@gmail.com}
 %\dateofbirth{January 1st, 1970}
-\homepage{themagicalmammal.vercel.app} 
-\github{themagicalmammal}
-\linkedin{themagicalmammal}
+%\homepage{www.posquit0.com} 
+\github{github.com/alandassie}
+% \linkedin{linkedin.com/in/alan-cruz-dassie-6ab657111}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -57,7 +56,7 @@
 % \kaggle{kaggle-id}
 % \googlescholar{googlescholar-id}{name-to-display}
 %% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
+\googlescholar{mslh-jAAAAAJ}{}
 % \extrainfo{extra information}
 
 % \quote{``Simplicity is deceptively complicated."}
@@ -86,15 +85,18 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv/summary.tex}
+% \input{cv/summary.tex}
 \input{cv/education.tex}
-\input{cv/experience.tex}
-\input{cv/projects.tex}
-\input{cv/skills.tex}
-\input{cv/achievements.tex}
 \input{cv/publications.tex}
-\input{cv/interests.tex}
+\input{cv/projects.tex}
+\input{cv/courses.tex}
+\input{cv/conferences.tex}
+\input{cv/skills.tex}
 \input{cv/languages.tex}
+
+% \input{cv/experience.tex}
+% \input{cv/achievements.tex}
+% \input{cv/interests.tex}
 
 \vspace*{\fill}
 \centering{\textbf{References available upon request.}}
